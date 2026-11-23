@@ -68,6 +68,13 @@ ul.tips{margin:0;padding-inline-start:1.2em}ul.tips li{margin:4px 0}
 .cta{display:flex;align-items:center;justify-content:center;width:100%;min-height:54px;margin-top:28px;border-radius:999px;background:#06c755;color:#fff;text-decoration:none;font-weight:500;font-size:17px}
 .cta-note{text-align:center;font-size:13px;color:var(--soft);margin:10px 0 0}
 .after{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;margin-top:14px}
+.contact{margin:26px 0 0;text-align:center}
+.social{display:flex;justify-content:center;gap:14px}
+.social a{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);color:var(--accent);background:var(--card)}
+.social a:hover{border-color:var(--accent)}
+.social svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.info{margin:14px 0 0;font-size:13px;line-height:1.8;color:var(--soft)}
+.info a{color:inherit;text-decoration:none}
 .foot{font-size:13px;color:var(--soft);text-align:center;margin:22px 0 0}
 .fade{animation:fade .35s ease}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -89,6 +96,13 @@ ul.tips{margin:0;padding-inline-start:1.2em}ul.tips li{margin:4px 0}
   <div class="logo" role="img" aria-label="CxD BEAUTY"></div>
   <p class="slogan" id="slogan"></p>
   <main class="card" id="app" aria-live="polite"></main>
+  <div class="contact">
+    <div class="social">
+      <a href="https://www.instagram.com/cxd_beauty" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></svg></a>
+      <a href="https://lin.ee/NwF8S8h" target="_blank" rel="noopener" aria-label="LINE"><svg viewBox="0 0 24 24"><path d="M12 3.5c-4.7 0-8.5 3-8.5 6.8 0 3.3 2.9 6.1 6.8 6.7.3.1.6.2.6.6l-.1 1.6c0 .4.3.6.6.4 1.8-.9 5.6-3.4 7-5.7.6-.9 1.1-2.1 1.1-3.6 0-3.8-3.8-6.8-8.5-6.8z"/><path d="M8.2 9.2v2.6h1.6M12.2 9.2v2.6M14.4 11.8V9.2l1.9 2.6V9.2"/></svg></a>
+    </div>
+    <p class="info"><a href="tel:+886426391097">電話　+886-4-2639-1097</a><br><a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%9C%9D%E5%AF%8C%E8%B7%AF213%E8%99%9F" target="_blank" rel="noopener">地址　台中市西屯區朝富路213號12樓之9 CBD大樓</a></p>
+  </div>
   <p class="foot" id="foot"></p>
 </div>
 <script type="application/json" id="cxd-data">{
